@@ -19,4 +19,4 @@ GN models are outperformed by generative adversarial network
 (GAN).
 
 # Algorithm
-![alt text](https://github.com/MarshalArijona/CLUB--Generative-Network/blob/main/algorithm.png?raw=true)
+![alt text](https://github.com/MarshalArijona/CLUB--Generative-Network/blob/main/algorithm.PNG?raw=true)
