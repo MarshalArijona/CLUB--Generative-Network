@@ -1,4 +1,6 @@
 # CLUB--Generative-Network
+# Link
+[I'm an inline-style link](https://www.researchgate.net/publication/349881819_Variational_Contrastive_Log_Ratio_Upper_Bound_of_Mutual_Information_for_Training_Generative_Model)
 # Abstract
 Abstract—This research is about the application of mutual
 information estimator for generative models. This research applies variational contrastive log-ratio upper bound (vCLUB)
