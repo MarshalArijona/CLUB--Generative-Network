@@ -23,3 +23,4 @@ GN models are outperformed by generative adversarial network
 
 # Result
 ![alt text](https://github.com/MarshalArijona/CLUB--Generative-Network/blob/main/generated_CLGAN_non_sampling.PNG?raw=true)
+![alt text](https://github.com/MarshalArijona/CLUB--Generative-Network/blob/main/score.PNG?raw=true)
