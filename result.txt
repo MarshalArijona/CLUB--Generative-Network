@@ -1,0 +1,61 @@
+/content/drive/My Drive/CLInfoGAN
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+Downloading: "https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth" to /root/.cache/torch/hub/checkpoints/inception_v3_google-1a9a5a14.pth
+100% 104M/104M [00:01<00:00, 80.1MB/s] 
+100% 200/200 [50:40<00:00, 15.20s/it]
+/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1
+100% 200/200 [59:17<00:00, 17.79s/it]
+FID: 100% 10/10 [01:47<00:00, 10.80s/it, mean=39.2]
+FID (/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1): 39.20 (0.264)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:41<00:00,  4.82it/s]
+/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1
+100% 200/200 [59:41<00:00, 17.91s/it]
+FID: 100% 10/10 [01:49<00:00, 10.95s/it, mean=22.2]
+FID (/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1): 22.19 (0.375)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN/fake_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:42<00:00,  4.75it/s]
+/content/drive/My Drive/CLInfoGAN/GAN/fake_1
+100% 200/200 [1:00:54<00:00, 18.27s/it]
+FID: 100% 10/10 [01:48<00:00, 10.86s/it, mean=18.9]
+FID (/content/drive/My Drive/CLInfoGAN/GAN/fake_1): 18.88 (0.397)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:41<00:00,  4.83it/s]
+/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1
+100% 200/200 [00:42<00:00,  4.71it/s]
+MMD: 100% 100/100 [00:50<00:00,  1.97it/s, mean=0.0336]
+KID (/content/drive/My Drive/CLInfoGAN/GAN-sampling/fake_sampling_1): 0.034 (0.002)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:41<00:00,  4.84it/s]
+/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1
+100% 200/200 [00:42<00:00,  4.68it/s]
+MMD: 100% 100/100 [00:49<00:00,  2.02it/s, mean=0.0185]
+KID (/content/drive/My Drive/CLInfoGAN/GAN-no-sampling/fake_no_sampling_1): 0.019 (0.001)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/GAN/fake_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:41<00:00,  4.82it/s]
+/content/drive/My Drive/CLInfoGAN/GAN/fake_1
+100% 200/200 [00:42<00:00,  4.68it/s]
+MMD: 100% 100/100 [00:49<00:00,  2.00it/s, mean=0.0155]
+KID (/content/drive/My Drive/CLInfoGAN/GAN/fake_1): 0.016 (0.001)
+
+/content/drive/My Drive/CLInfoGAN
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+Downloading: "https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth" to /root/.cache/torch/hub/checkpoints/inception_v3_google-1a9a5a14.pth
+100% 104M/104M [00:01<00:00, 56.9MB/s] 
+100% 200/200 [1:09:12<00:00, 20.76s/it]
+/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1
+100% 200/200 [00:36<00:00,  5.43it/s]
+FID: 100% 10/10 [02:16<00:00, 13.69s/it, mean=39.1]
+FID (/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1): 39.06 (0.348)
+
+Namespace(batch_size=50, dims=2048, fake=['/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1'], gpu='0', model='inception', true='/content/drive/My Drive/CLInfoGAN/real_mnist')
+100% 200/200 [00:36<00:00,  5.54it/s]
+/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1
+100% 200/200 [00:37<00:00,  5.27it/s]
+MMD: 100% 100/100 [00:58<00:00,  1.72it/s, mean=0.0369]
+KID (/content/drive/My Drive/CLInfoGAN/L1-GAN/fake_1): 0.037 (0.002)
